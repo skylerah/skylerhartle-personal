@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Most Likely To Be Eaten By A Grue`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Skyler Hartle`,
+      summary: ``,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A collection of essays, thoughts, and nothingness.`,
+    siteUrl: `https://www.skylerhartle.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `skylerhartle`,
     },
   },
   plugins: [

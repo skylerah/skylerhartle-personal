@@ -25,9 +25,11 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <strong>Subscribe</strong> to get more nonsense
+        <p>
+        <iframe src="https://skylerhartle.substack.com/embed" width="480" height="100" frameborder="0" scrolling="no"></iframe>
+        </p>
+      
       </footer>
     </div>
   )
