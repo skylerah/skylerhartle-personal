@@ -85,7 +85,11 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
-  background-color: white;
+  text-align: center;
+}
+
+.substack {
+  text-align: center;
 }
 
 #entry {
@@ -252,7 +256,7 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: var(--spacing-5);
 }
 
 .global-header {
@@ -293,7 +297,7 @@ a:focus {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  margin-bottom: var(--spacing-5);
 }
 
 .bio p {

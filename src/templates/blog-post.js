@@ -28,7 +28,8 @@ const BlogPostTemplate = ({
         />
         <hr />
         <footer>
-          <Bio />
+          <em>And you could be the bell of the ball... subscribe today!</em>
+        <iframe src="https://skylerhartle.substack.com/embed" width="480" height="100" frameborder="0" scrolling="no"></iframe>
         </footer>
       </article>
       <nav className="blog-post-nav">

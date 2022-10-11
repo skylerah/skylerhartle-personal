@@ -25,6 +25,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location}>
       <Bio />
+      <div class="substack">
+      <em>And you could be the bell of the ball... subscribe today!</em>
+        <iframe src="https://skylerhartle.substack.com/embed" width="480" height="100" frameborder="0" scrolling="no"></iframe>
+        </div>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
